@@ -1,6 +1,6 @@
 describe('X - Forgotten Password Request', () => {
     before(() => {
-        cy.visit(Cypress.env('staging_url'));
+        cy.visit(Cypress.env('base_url'));
         cy.dismissCookieBannerAndMigrationBar()
      })
 

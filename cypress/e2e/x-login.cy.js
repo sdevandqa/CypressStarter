@@ -1,6 +1,6 @@
 describe('X - Login', () => {
   beforeEach(() => {
-    cy.visit(Cypress.env('staging_url'));
+    cy.visit(Cypress.env('base_url'));
     cy.dismissCookieBannerAndMigrationBar()
  })
   

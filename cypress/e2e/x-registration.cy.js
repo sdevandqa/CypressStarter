@@ -1,7 +1,7 @@
 describe('X - Registration', () => {
   beforeEach(() => {
-     cy.visit(Cypress.env('staging_url'));
-     cy.dismissCookieBannerAndMigrationBar()
+   cy.visit(Cypress.env('base_url'));
+   cy.dismissCookieBannerAndMigrationBar()
   })
 
   it('Should prevent user proceeding to step 2 of registration of phone number is invalid.', () => {
